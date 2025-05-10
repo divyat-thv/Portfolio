@@ -1,1 +1,186 @@
-#app
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Thallapelli Divya, portfolio, Divya, full stack developer, personal portfolio, portfolio design, portfolio website, computer science, web developer" />
+    <meta name="description" content="Welcome to Thallapelli Divya's Portfolio. Full-Stack Developer and Problem Solver" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <title>Divya's Portfolio</title>
+</head>
+<body>
+<header>
+    <a href="/" class="logo"><i class="fa-solid fa-code"></i> Divya's Portfolio</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#experience">Certifications</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h2>Hi There,<br/> I'm Thallapelli Divya</h2>
+        <p>I'm a Full-Stack Developer | Problem Solver</p>
+        <a href="#about" class="btn"><span>About Me</span> <i class="fas fa-arrow-circle-down"></i></a>
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="linkedin" href="https://www.linkedin.com/in/thallapelli-divya-8246912a6/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a class="github" href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="https://static.vecteezy.com/system/resources/previews/044/428/120/non_2x/business-woman-illustration-on-transparent-background-free-png.png" alt="Divya Profile">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About Me</h2>
+    <div class="row">
+        <!-- Removed Profile Picture -->
+        <div class="content">
+            <h3>I'm Thallapelli Divya</h3>
+            <p>I am a 4th-year Computer Science student at Anurag University. I am passionate about problem-solving, algorithm optimization, and developing scalable applications. I enjoy learning new technologies and am always eager to take on new challenges that allow me to grow both technically and personally.</p>
+            <div class="box-container">
+                <div class="box">
+                    <p><span>Phone:</span> +91 7989030541</p>
+                    <p><span>Email:</span> thallapellidivya6@gmail.com</p>
+                </div>
+                <div class="box">
+                    <p><span>Location:</span> Hyderabad, Telangana, India</p>
+                    <p><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/thallapelli-divya-8246912a6/" target="_blank">Profile Link</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+        <div class="row" id="skillsContainer">
+            <div class="bar"><div class="info"><span>Java</span></div></div>
+            <div class="bar"><div class="info"><span>Python</span></div></div>
+            <div class="bar"><div class="info"><span>C++</span></div></div>
+            <div class="bar"><div class="info"><span>HTML/CSS</span></div></div>
+            <div class="bar"><div class="info"><span>JavaScript</span></div></div>
+            <div class="bar"><div class="info"><span>React.js</span></div></div>
+            <div class="bar"><div class="info"><span>MySQL/PostgreSQL</span></div></div>
+            <div class="bar"><div class="info"><span>Git/GitHub</span></div></div>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> <span> My Education</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="content">
+                <h3>Bachelor of Technology (CSE)</h3>
+                <p>Anurag University, Hyderabad, Telangana</p>
+                <h4>2021 - 2025 | SGPA: 8.11</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h3>Higher Secondary</h3>
+                <p>Narayana Junior College, Medchal, Telangana</p>
+                <h4>2019 - 2021 | Percentage: 96%</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h3>Secondary School</h3>
+                <p>Vijay Ratna High School, Medchal, Telangana</p>
+                <h4>2019 | CGPA: 9.7</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+        <div class="box tilt">
+            <img src="data:image/jpeg;base64,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" alt="OneClick Project Image" class="project-img">
+            <div class="content">
+                <div class="tag"><h3>OneClick</h3></div>
+                <div class="desc"><p>Health-focused website with dynamic food suggestions tailored to specific diseases. (HTML, CSS, JavaScript, Bootstrap)</p></div>
+            </div>
+        </div>
+        <div class="box tilt">
+            <img src="data:image/png;base64,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" alt="Voting System Image" class="project-img">
+            <div class="content">
+                <div class="tag"><h3>Online Voting System</h3></div>
+                <div class="desc"><p>Remote voting system ensuring authentication, anonymity, and integrity. (Java, MySQL)</p></div>
+            </div>
+        </div>
+        <div class="box tilt">
+            <img src="https://ph-files.imgix.net/e12f9c10-2d0f-41b8-be34-4d1a78d4bef8.webp?auto=format&fit=crop" alt="RPS Game Image" class="project-img">
+            <div class="content">
+                <div class="tag"><h3>Rock Paper Scissor Game</h3></div>
+                <div class="desc"><p>Game with user login and high-score tracking. (Python, Tkinter, MySQL)</p></div>
+            </div>
+        </div>
+        <div class="box tilt">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaoLcSKc83KlxPSkFCKN5lNJr3DeO5EtSkfw&s" class="project-img">
+            <div class="content">
+                <div class="tag"><h3>Anomaly Detection React App</h3></div>
+                <div class="desc"><p>Credit card transaction anomaly detection using Google Cloud, AI & MERN stack.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-certificate"></i><span> Certifications & Achievements</span></h2>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <div class="tag"><h2>Wipro Talent Next – Java Full Stack</h2></div>
+                <div class="desc"><p>Completed full-stack training with a focus on Java technologies.</p></div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <div class="tag"><h2>Guvi (HCL) – Generative AI Fundamentals</h2></div>
+                <div class="desc"><p>Mastered basics of generative AI concepts and applications.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Divya's Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website. Feel free to connect with me over socials!</p>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#work">Projects</a>
+            <a href="#experience">Certifications</a>
+        </div>
+        <div class="box">
+            <h3>Contact info</h3>
+            <p><i class="fas fa-phone"></i> +91 7989030541</p>
+            <p><i class="fas fa-envelope"></i> thallapellidivya6@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> Hyderabad, Telangana, India</p>
+            <div class="share">
+                <a class="linkedin" href="https://www.linkedin.com/in/thallapelli-divya-8246912a6/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
